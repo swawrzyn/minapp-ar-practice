@@ -67,6 +67,7 @@ Page({
     //创建渲染器
     var renderer = new THREE.WebGLRenderer({
       canvas: this._webGLCanvas,
+      alpha:true
     });
     //设置渲染器大小
     this._renderer = renderer;
